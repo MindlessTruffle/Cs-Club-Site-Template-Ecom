@@ -1,0 +1,52 @@
+{
+    "Item1": {
+        "name": "Sorcerer's Staff",
+        "description": "A powerful staff wielded by wizards and sorcerers, channeling magical energies.",
+        "id": "1",
+        "price": 49.99,
+        "images": {
+            "image1": "LINK-TO-IMAGE-1",
+            "image2": "LINK-TO-IMAGE-2"
+        }
+    },
+    "Item2": {
+        "name": "Knight's Broadsword",
+        "description": "A sturdy broadsword, the weapon of choice for noble knights in epic battles.",
+        "id": "2",
+        "price": 79.99,
+        "images": {
+            "image1": "LINK-TO-IMAGE-3",
+            "image2": "LINK-TO-IMAGE-4"
+        }
+    },
+    "Item3": {
+        "name": "Enchanted Bow of Elvenkind",
+        "description": "A finely crafted bow, imbued with elven magic for unparalleled accuracy and power.",
+        "id": "3",
+        "price": 64.99,
+        "images": {
+            "image1": "LINK-TO-IMAGE-5",
+            "image2": "LINK-TO-IMAGE-6"
+        }
+    },
+    "Item4": {
+        "name": "Dwarven War Axe",
+        "description": "A stout and deadly war axe forged by skilled dwarven blacksmiths for close-quarters combat.",
+        "id": "4",
+        "price": 89.99,
+        "images": {
+            "image1": "LINK-TO-IMAGE-7",
+            "image2": "LINK-TO-IMAGE-8"
+        }
+    },
+    "Item5": {
+        "name": "Rogue's Dagger",
+        "description": "A sleek dagger, perfect for stealthy maneuvers and swift, silent strikes.",
+        "id": "5",
+        "price": 54.99,
+        "images": {
+            "image1": "LINK-TO-IMAGE-9",
+            "image2": "LINK-TO-IMAGE-10"
+        }
+    }
+}
