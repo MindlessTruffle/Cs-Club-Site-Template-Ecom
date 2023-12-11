@@ -1,33 +1,16 @@
-/*
-
-<nav>
-    <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="contact.html">Contact</a></li>
-    </ul>
-</nav>
-
-*/
-
-// import { useState } from 'react'
-//import './App.css'
-import './../styles.css'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 function NavBar() {
-  // const [count, setCount] = useState(0)
-
   return (
-    <>
-        <nav>
-            <ul>
-            <li><a href="#">Home</a></li> {/* change from href to class*/}
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </>
-  )
+    <nav>
+      <ul>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
+      </ul>
+    </nav>
+  );
 }
 
-export default NavBar
+export default NavBar;

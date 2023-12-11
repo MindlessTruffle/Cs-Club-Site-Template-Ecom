@@ -276,12 +276,30 @@ footer{
 }
 
 .preorder-product {
-  margin-bottom: 30px;
-  border-radius: 5px;
-  overflow: hidden;
   position: relative;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+.preorder-product .magnifier {
+  position: absolute;
+  border: 2px solid #ddd;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: none;
+  pointer-events: none;
+}
+
+.preorder-product:hover .magnifier {
+  display: block;
+}
+
+.preorder-product .magnifier img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 
 .preorder-product label {
   display: block;
@@ -296,3 +314,5 @@ footer{
   transform: scale(1.05);
   background-color: #82e0aa; /* changed background color to green*/
 }
+
+
