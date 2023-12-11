@@ -14,7 +14,7 @@ or download and extract the zip file from github.
 
 ### Running
 
-To run the project all you do is `cd` into the `main` folder and run:
+To run the project all you do is `cd` into the `vite-project` folder and run:
 
 ```ps
 npm install
