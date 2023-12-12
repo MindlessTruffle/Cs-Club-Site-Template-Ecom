@@ -1,4 +1,4 @@
-
+import PhoneImage from "./../assets/Phone.jpg"
 function Contact() {
   return (
     <main>
@@ -11,7 +11,7 @@ function Contact() {
             <li>Phone: +1 123 456 7890</li>
             <li>Address: 456 Street, Detroit, Antarctica</li>
           </ul>
-          <img src="contact-image.jpg" alt="No Image found!?!?" />
+          <img src={PhoneImage} alt="No Image found!?!?" />
         </div>
       </section>
     </main>
