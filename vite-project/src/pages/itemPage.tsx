@@ -51,7 +51,7 @@ function ItemDetailCart() {
                 <div className="magnifier">
                 <img src={DaggerImage} alt="Preorder Product 1" />
                 </div>
-                <img src={HatImage} alt="Preorder Product 1" />
+                <img src={DaggerImage} alt="Preorder Product 1" />
                 <h3>Magical Dagger</h3>
                 <p className="price">$69.99</p>
             </label>
@@ -60,9 +60,9 @@ function ItemDetailCart() {
             <input type="checkbox" id="preorder-product2" className="preorder-checkbox"></input>
             <label htmlFor="preorder-product2">
                 <div className="magnifier">
-                <img src="preorder-product2.jpg" alt="Preorder Product 2" />
+                <img src={HatImage} alt="Preorder Product 2" />
                 </div>
-                <img src="preorder-product2.jpg" alt="Preorder Product 2" />
+                <img src={HatImage} alt="Preorder Product 2" />
                 <h3>Hat Of Many Secrets</h3>
                 <p className="price">$89.99</p>
             </label>
