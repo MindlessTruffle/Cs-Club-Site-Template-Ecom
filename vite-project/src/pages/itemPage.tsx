@@ -29,12 +29,12 @@ function ItemDetailCart() {
             <h2>Even More Real Customer Reviews</h2>
             <ul>
             <li>
-                <div className="reviewer">John Doe</div>
-                <div className="review-rating">★★★★★</div>
-                <p className="review-comment">"This product is amazing! Highly recommended!"</p>
+                <div className="reviewer">Queen Elizabeth</div>
+                <div className="review-rating">★☆☆☆☆</div>
+                <p className="review-comment">"Mine arrived broken. Clearly a fake..."</p>
             </li>
             <li>
-                <div className="reviewer">Silly Wizard</div>
+                <div className="reviewer">Angry Wizard</div>
                 <div className="review-rating">★★★☆☆</div>
                 <p className="review-comment">"GIVE IT BACK."</p>
             </li>
