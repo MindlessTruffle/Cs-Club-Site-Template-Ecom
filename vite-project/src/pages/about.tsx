@@ -1,4 +1,4 @@
-import PeopleImage from "./../assets/People.jpg"
+import TeamImage from "./../assets/People.jpg"
 function About() {
   return (
     <main>
