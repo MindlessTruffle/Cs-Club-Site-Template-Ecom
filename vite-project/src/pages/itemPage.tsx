@@ -50,7 +50,7 @@ function ItemDetailCart() {
                 <img src="preorder-product1.jpg" alt="Preorder Product 1" />
                 </div>
                 <img src="preorder-product1.jpg" alt="Preorder Product 1" />
-                <h3>Preorder Product 1</h3>
+                <h3>Magical Dagger</h3>
                 <p className="price">$69.99</p>
             </label>
             </div>
@@ -61,7 +61,7 @@ function ItemDetailCart() {
                 <img src="preorder-product2.jpg" alt="Preorder Product 2" />
                 </div>
                 <img src="preorder-product2.jpg" alt="Preorder Product 2" />
-                <h3>Preorder Product 2</h3>
+                <h3>Hat Of Many Secrets</h3>
                 <p className="price">$89.99</p>
             </label>
             </div>
