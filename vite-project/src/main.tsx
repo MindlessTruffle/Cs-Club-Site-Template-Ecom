@@ -6,7 +6,7 @@ import './styles.css'
 
 // React.StrictMode makes things update twice.
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode> 
+  <React.StrictMode>
     <App />
-  </React.StrictMode>,
+  </React.StrictMode>
 )
