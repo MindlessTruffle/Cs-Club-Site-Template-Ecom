@@ -1,4 +1,4 @@
-
+import PhoneImage from "./../assets/Phone.jpg"
 function Contact() {
   return (
     <main>
