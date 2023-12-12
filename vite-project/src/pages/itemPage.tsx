@@ -1,4 +1,6 @@
 import SorcererImage from "./../assets/SorcererStaff.png"
+import DaggerImage from "./../assets/preorder-product1.jpg"
+import HatImage from "./../assets/preorder-product2.jpg"
 
 function ItemDetailCart() {
 
@@ -32,9 +34,9 @@ function ItemDetailCart() {
                 <p className="review-comment">"This product is amazing! Highly recommended!"</p>
             </li>
             <li>
-                <div className="reviewer">Jane Smith</div>
+                <div className="reviewer">Silly Wizard</div>
                 <div className="review-rating">★★★☆☆</div>
-                <p className="review-comment">"It's good, but could be better."</p>
+                <p className="review-comment">"GIVE IT BACK."</p>
             </li>
             {/*add more reviews if it would look fine*/}
             </ul>
@@ -47,10 +49,10 @@ function ItemDetailCart() {
             <input type="checkbox" id="preorder-product1" className="preorder-checkbox"></input>
             <label htmlFor="preorder-product1">
                 <div className="magnifier">
-                <img src="preorder-product1.jpg" alt="Preorder Product 1" />
+                <img src={DaggerImage} alt="Preorder Product 1" />
                 </div>
-                <img src="preorder-product1.jpg" alt="Preorder Product 1" />
-                <h3>Preorder Product 1</h3>
+                <img src={HatImage} alt="Preorder Product 1" />
+                <h3>Magical Dagger</h3>
                 <p className="price">$69.99</p>
             </label>
             </div>
@@ -61,7 +63,7 @@ function ItemDetailCart() {
                 <img src="preorder-product2.jpg" alt="Preorder Product 2" />
                 </div>
                 <img src="preorder-product2.jpg" alt="Preorder Product 2" />
-                <h3>Preorder Product 2</h3>
+                <h3>Hat Of Many Secrets</h3>
                 <p className="price">$89.99</p>
             </label>
             </div>
